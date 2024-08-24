@@ -46,7 +46,7 @@
 
 5. **Instale o Django**:
     ```bash
-    pip install django
+    pip install django==4.2.15
     ```
 
 6. **Execute o servidor de desenvolvimento**:
