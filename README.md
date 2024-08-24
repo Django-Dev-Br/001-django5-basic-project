@@ -1,6 +1,10 @@
 
 # 001 Django 4 Basic Project
 
+### O que é um Projeto Django?
+
+Um projeto Django é a estrutura báisca para construir uma aplicação web com o framework Django. Ele é uma coleção de configurações e pacotes para um sistema web com python. 
+
 ## COMO RODAR ESSE PROJETO EM SEU COMPUTADOR:
 
 ### Requisitos
@@ -62,9 +66,6 @@ http://127.0.0.1:8000/
 
 ###  Após executar o servidor, você deve ver a página inicial padrão do Django, semelhante à django_running.png acima
 
-### O que é um Projeto Django?
-
-Um projeto Django é uma coleção de configurações e aplicativos para um site web específico. É a estrutura báisca para construir uma aplicação web com o framework Django. 
 
 ### Estrutura de Diretórios do Projeto
 
@@ -78,6 +79,13 @@ Um projeto Django é uma coleção de configurações e aplicativos para um site
 │   └── wsgi.py          # Configurações para o servidor WSGI (usado para servir a aplicação)
 └── manage.py            # CLI (Command line interface) do Django, ou seja, um script de linha de comando que recebe e executa os comandos do Django via terminal (linha de comando)
 
+```
+### OBS: Como Criar um Projeto Django
+
+Se desejar criar seu próprio projeto Django, use o seguinte comando após criar e ativar a virtual env e instalar o django nela, conforme orientações acima:
+
+```bash
+django-admin startproject myproject
 ```
 
 ### Sobre Nosso Treinamento Prático-Profissional com projeto real para iniciantes e avançados em web DevOps Full-stack com Python, Django, Bootstrap e Linux. 
