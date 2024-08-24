@@ -75,7 +75,7 @@ Um projeto Django é uma coleção de configurações e aplicativos para um site
 
 ```
 
-### Sobre Nosso Treinamento Prátic-Profissional para iniciantes e avançados
+### Sobre Nosso Treinamento Prático-Profissional com projeto real para iniciantes e avançados em web DevOps Full-stack com Python, Django, Bootstrap e Linux. 
 
 [Django Developers Brasil - Aprenda programando enquanto programa aprendendo!](https://django.dev.br/)
 
