@@ -33,19 +33,23 @@
     ```
 
 2. **Crie  um ambiente virtual**:
-
-3. **Ative o ambiente virtual criado**:
     ```bash
-    source venv312/bin/activate  # Linux
-    venv312\Scripts\activate  # Windows
+     python3 -m venv myvenv  # Linux
+     python -m venv myvenv  # Windows
     ```
 
-4. **Instale o Django**:
+4. **Ative o ambiente virtual criado**:
+    ```bash
+    source myvenv/bin/activate  # Linux
+    myvenv\Scripts\activate  # Windows
+    ```
+
+5. **Instale o Django**:
     ```bash
     pip install django
     ```
 
-5. **Execute o servidor de desenvolvimento**:
+6. **Execute o servidor de desenvolvimento**:
     ```bash
     python manage.py runserver
     ```
