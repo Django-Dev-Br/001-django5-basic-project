@@ -17,5 +17,10 @@ from django.contrib import admin
 from django.urls import path
 
 urlpatterns = [
-    path('admin/', admin.site.urls),
+    path(' ', admin.site.urls),
 ]
+'''
+    POR ORA, O PROJETO SÓ TEM UM ROTA QUE É PARA O DJANGO ADMIN
+    TODAVIA, O DJANGO ADMIN SÓ ESTARÁ ACESSÍVEL APÓS A CRIAÇÃO DO BANCO DE DADOS E DAS CREDENCIAIS DE ACESSO - O QUE FAREMOS POSTERIORMENTE
+    O TEMPLATE PADRÃO EM http://127.0.0.1:8000/ SERÁ AUTOMATICAMENTE SOBRESCRITO QUANDO FOR CRIADA QUALQUER OUTRA PELO USUÁRIO
+'''
