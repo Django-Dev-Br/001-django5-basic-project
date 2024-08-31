@@ -5,6 +5,15 @@
 
 Um projeto Django é a estrutura báisca para construir uma aplicação web com o framework Django. Ele é uma coleção de configurações e pacotes para um sistema web com python. 
 
+### O que é o PIP?
+
+O pip é um gerenciador de dependências do Python. Ele baixa e instala, automaticamente, pacotes de [https://pypi.org/](https://pypi.org/) para seu projeto Python. O PyPi é o repositório oficial de pacotes Python. O Próprio Django é um conjunto de pacotes - essa é a definição de Framework. 
+
+### O que é um Virtual Environment (Ambiente Virtual ou venv)?
+
+Um ambiente virtual é um container de isolamento para instalação de pacotes python. Ele permite que as instalações sejam feitas nel e não no computador. Isso permite que vc trabalhe com diferentes versões da linguagem Python e diferente pacotes e respectivas versões em difentes ambientes, evitando qualquer conflito e/ou incompatibilidade. 
+
+
 ## COMO RODAR ESSE PROJETO EM SEU COMPUTADOR:
 
 ### Requisitos
@@ -34,27 +43,53 @@ Um projeto Django é a estrutura báisca para construir uma aplicação web com 
 1. **Clone o repositório**:
     ```bash
     git clone https://github.com/Django-Dev-Br/001-django4-basic-project.git
-    cd 001-django4-basic-project
     ```
 
-2. **Crie  um ambiente virtual**:
+2. **Crie  um ambiente virtual no diretório root**:
+
+   **Windows**
     ```bash
-     python3 -m venv myvenv  # Linux
      python -m venv myvenv  # Windows
+    ```
+      **Linux**
+     ```bash
+     python3 -m venv myvenv  # Linux
     ```
 
 4. **Ative o ambiente virtual criado**:
+
+   **Windows**
     ```bash
-    source myvenv/bin/activate  # Linux
     myvenv\Scripts\activate  # Windows
     ```
 
-5. **Instale o Django**:
+     **Linux**
+    ```bash
+    source myvenv/bin/activate  # Linux
+    ```
+
+6. **Instale o Django**:
+
+   Fazer a instalação após a ativação da virtual env fará com que a instalação seja feita nessa pasta ao invés do computador. Isso significa que o pacote Django não estará disponivel para todos os usuários do computador, mas apenas para o contexto no qual essa venv esteja ativada. Veremos sua ativação logo abaixo.
+
+    **Vi Gerenciador de Dependências**
     ```bash
     pip install django==4.2.15
     ```
+    ----- **OU** -----
 
-6. **Execute o servidor de desenvolvimento**:
+    **Vi requirements**
+    ```bash
+    pip install -r requirements.txt
+    ```
+    O arquivo requirements.txt é um arquivo de texto que contém uma lista de pacotes a ser instalado em uma venv. É uma boa prática de programação do ecossistema Python.
+
+6.**Acesse a pasta do projeto Django**:
+  ```bash
+    cd 001-django4-basic-project
+    ```
+
+7. **Execute o servidor de desenvolvimento**:
     ```bash
     python manage.py runserver
     ```
@@ -78,7 +113,7 @@ http://127.0.0.1:8000/
 │   ├── urls.py          # Mapeamento de requisições https e redirecionamento para os templates html
 │   └── wsgi.py          # Configurações para o servidor WSGI (usado para servir a aplicação)
 └── manage.py            # CLI (Command line interface) do Django, ou seja, um script de linha de comando que recebe e executa os comandos do Django via terminal (linha de comando)
-
+└── requirements.txt     # arquivo de texto com uma lista de pacotes python. 
 ```
 ### OBS: Como Criar um Projeto Django
 
@@ -87,6 +122,14 @@ Se desejar criar seu próprio projeto Django, use o seguinte comando após criar
 ```bash
 django-admin startproject myproject
 ```
+
+### OBS: Como criar um arquivo de requirements.txt?
+
+Após ativar um venv e instalar pacotes neles, é possível salvar a lista dessas instalações no arquivo requirements.txt. Para isso, utilize o comando:
+
+    ```bash
+    pip freeze > requirements.txt
+    ```
 
 ### Sobre Nosso Treinamento Prático-Profissional com projeto real para iniciantes e avançados em web DevOps Full-stack com Python, Django, Bootstrap e Linux. 
 
