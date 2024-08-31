@@ -137,6 +137,7 @@ Após ativar um venv e instalar pacotes neles, é possível salvar a lista dessa
     ```bash
     pip freeze > requirements.txt
     ```
+    
     Esse comando exporta todas as dependências instaladas em um venv para o arquivo requirements.txt.
 
 ### Sobre Nosso Treinamento Prático-Profissional com projeto real para iniciantes e avançados em web DevOps Full-stack com Python, Django, Bootstrap e Linux. 
@@ -145,4 +146,5 @@ Após ativar um venv e instalar pacotes neles, é possível salvar a lista dessa
 
 Nosso treinamento oferece uma experiência prática de aprendizado de programação, adequada tanto para iniciantes quanto para desenvolvedores avançados. Você participará de um projeto real de desenvolvimento de software em um ambiente corporativo autêntico, onde pessoas com diferentes níveis de conhecimento irão colaborar, aprendendo umas com as outras.
 
-**Junte-se a nós!** E desenvolva as habilidades necessárias para o mercado de trabalho, aprimorando tanto seus conhecimentos técnicos quanto suas soft skills em um ambiente colaborativo e realista.
+### Junte-se a nós! 
+E desenvolva as habilidades necessárias para o mercado de trabalho, aprimorando tanto seus conhecimentos técnicos quanto suas soft skills em um ambiente colaborativo e realista.
