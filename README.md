@@ -133,11 +133,10 @@ O comando acima cria os arquivos do projeto Django na pasta atual. Não cria uma
 
 ### OBS: Como criar um arquivo de requirements.txt?
 
-Após ativar um venv e instalar pacotes neles, é possível salvar a lista dessas instalações no arquivo requirements.txt. Para isso, utilize o comando:
-
-    ```bash
-    pip freeze > requirements.txt
-    ```
+    Após ativar um venv e instalar pacotes neles, é possível salvar a lista dessas instalações no arquivo requirements.txt. Para isso, utilize o comando:
+      ```bash
+      pip freeze > requirements.txt
+      ```
     
     Esse comando exporta todas as dependências instaladas em um venv para o arquivo requirements.txt.
 
