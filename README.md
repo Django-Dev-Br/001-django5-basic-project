@@ -3,15 +3,15 @@
 
 ### O que é um Projeto Django?
 
-Um projeto Django é a estrutura báisca para construir uma aplicação web com o framework Django. Ele é uma coleção de configurações e pacotes para um sistema web com python. 
+Um projeto Django é a estrutura básica para construir uma aplicação web com o framework Django. Ele é uma coleção de configurações e pacotes para um sistema web com python. 
 
 ### O que é o PIP?
 
-O pip é um gerenciador de dependências do Python. Ele baixa e instala, automaticamente, pacotes de [https://pypi.org/](https://pypi.org/) para seu projeto Python. O PyPi é o repositório oficial de pacotes Python. O Próprio Django é um conjunto de pacotes - essa é a definição de Framework. 
+O pip é um gerenciador de dependências do Python. Ele baixa e instala, automaticamente, pacotes de [https://pypi.org/](https://pypi.org/) para seu projeto Python. O PyPi é o repositório oficial de pacotes Python. O Próprio Django é composto por vários pacotes, formando assim um framework. Essa é a descrição técnica de um Framework, ou seja, um conjunto de pacotes. 
 
 ### O que é um Virtual Environment (Ambiente Virtual ou venv)?
 
-Um ambiente virtual é um container de isolamento para instalação de pacotes python. Ele permite que as instalações sejam feitas nel e não no computador. Isso permite que vc trabalhe com diferentes versões da linguagem Python e diferente pacotes e respectivas versões em difentes ambientes, evitando qualquer conflito e/ou incompatibilidade. 
+Um ambiente virtual é um container de isolamento para instalação de pacotes python. Na prática, é uma pasta ou diretório no Sistema operacional. Ela permite que as instalações sejam feitas nela e não no computador. Isso permite que vc trabalhe com diferentes versões da linguagem Python e diferente pacotes e respectivas versões em difentes ambientes, evitando qualquer conflito e/ou incompatibilidade. 
 
 
 ## COMO RODAR ESSE PROJETO EM SEU COMPUTADOR:
@@ -72,13 +72,13 @@ Um ambiente virtual é um container de isolamento para instalação de pacotes p
 
    Fazer a instalação após a ativação da virtual env fará com que a instalação seja feita nessa pasta ao invés do computador. Isso significa que o pacote Django não estará disponivel para todos os usuários do computador, mas apenas para o contexto no qual essa venv esteja ativada. Veremos sua ativação logo abaixo.
 
-    **Vi Gerenciador de Dependências**
+    **Instalação via gerenciador de dependências PIP**
     ```bash
     pip install django==4.2.15
     ```
     ----- **OU** -----
 
-    **Vi requirements**
+    **Instalação via arquivo requirements**
     ```bash
     pip install -r requirements.txt
     ```
@@ -94,7 +94,7 @@ Um ambiente virtual é um container de isolamento para instalação de pacotes p
     python manage.py runserver
     ```
 
-### Acesse no seu navegador o enderço a seguir:
+### Acesse no seu navegador o endereço a seguir:
 
 http://127.0.0.1:8000/
 
@@ -122,6 +122,12 @@ Se desejar criar seu próprio projeto Django, use o seguinte comando após criar
 ```bash
 django-admin startproject myproject
 ```
+Cria o projeto em uma subpasta myproject
+
+```bash
+django-admin startproject myproject .
+```
+Cria os arquivos do projeto Django na pasta atual. Não cria uma subpasta com o mesmo nome do projeto, no caso, "myproject".
 
 ### OBS: Como criar um arquivo de requirements.txt?
 
@@ -130,6 +136,7 @@ Após ativar um venv e instalar pacotes neles, é possível salvar a lista dessa
     ```bash
     pip freeze > requirements.txt
     ```
+    Esse comando exporta todas as dependências instaladas em um venv para o arquivo requirements.txt.
 
 ### Sobre Nosso Treinamento Prático-Profissional com projeto real para iniciantes e avançados em web DevOps Full-stack com Python, Django, Bootstrap e Linux. 
 
