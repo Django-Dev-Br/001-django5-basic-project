@@ -84,13 +84,12 @@ Um ambiente virtual é um container de isolamento para instalação de pacotes p
     ```
     O arquivo requirements.txt é um arquivo de texto que contém uma lista de pacotes a ser instalado em uma venv. É uma boa prática de programação do ecossistema Python.
 
-6.**Acesse a pasta do projeto Django**:
-
+7. **Acesse a pasta do projeto Django**:
     ```bash
     cd 001-django4-basic-project
     ```
 
-7. **Execute o servidor de desenvolvimento**:
+8. **Execute o servidor de desenvolvimento**:
     ```bash
     python manage.py runserver
     ```
@@ -120,15 +119,17 @@ http://127.0.0.1:8000/
 
 Se desejar criar seu próprio projeto Django, use o seguinte comando após criar e ativar a virtual env e instalar o django nela, conforme orientações acima:
 
-```bash
-django-admin startproject myproject
-```
-Cria o projeto em uma subpasta myproject
+  ```bash
+  django-admin startproject myproject
+  ```
+O comando acima cria o projeto em uma subpasta myproject
 
-```bash
-django-admin startproject myproject .
-```
-Cria os arquivos do projeto Django na pasta atual. Não cria uma subpasta com o mesmo nome do projeto, no caso, "myproject".
+**OU**
+
+  ```bash
+  django-admin startproject myproject .
+  ```
+O comando acima cria os arquivos do projeto Django na pasta atual. Não cria uma subpasta com o mesmo nome do projeto, no caso, "myproject".
 
 ### OBS: Como criar um arquivo de requirements.txt?
 
