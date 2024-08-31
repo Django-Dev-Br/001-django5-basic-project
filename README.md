@@ -7,7 +7,7 @@ Um projeto Django é a estrutura básica para construir uma aplicação web com 
 
 ### O que é o PIP?
 
-O pip é um gerenciador de dependências do Python. Ele baixa e instala, automaticamente, pacotes de [https://pypi.org/](https://pypi.org/) para seu projeto Python. O PyPi é o repositório oficial de pacotes Python. O Próprio Django é composto por vários pacotes, formando assim um framework. Essa é a descrição técnica de um Framework, ou seja, um conjunto de pacotes. 
+O pip é um gerenciador de dependências do Python. Ele baixa e instala, automaticamente, pacotes de [https://pypi.org/](https://pypi.org/) para seu projeto Python. O PyPi é o repositório oficial de pacotes Python. O Próprio Django é composto por vários pacotes, formando assim um framework. Essa é a descrição técnica de um Framework, ou seja, Framework é um conjunto de pacotes. 
 
 ### O que é um Virtual Environment (Ambiente Virtual ou venv)?
 
