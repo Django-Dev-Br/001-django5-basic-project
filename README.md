@@ -25,7 +25,7 @@ Um ambiente virtual é um container de isolamento para instalação de pacotes p
  [![Watch the video](https://img.youtube.com/vi/eetDeQrv0Rs/0.jpg)](https://youtu.be/eetDeQrv0Rs)
 
 
-### Passos para Executar
+### Passos a passo para Executar em 6 etapas simples
 
 1. **Clone o repositório**:
     ```bash
@@ -43,7 +43,7 @@ Um ambiente virtual é um container de isolamento para instalação de pacotes p
      python3 -m venv myvenv  
     ```
 
-4. **Ative o ambiente virtual criado**:
+3. **Ative o ambiente virtual criado**:
 
    **Windows**
     ```bash
@@ -55,7 +55,7 @@ Um ambiente virtual é um container de isolamento para instalação de pacotes p
     source myvenv/bin/activate  
     ```
 
-6. **Instale o Django**:
+4. **Instale o Django**:
 
    Fazer a instalação após a ativação da virtual env fará com que a instalação seja feita nessa pasta ao invés do computador. Isso significa que o pacote Django não estará disponivel para todos os usuários do computador, mas apenas para o contexto no qual essa venv esteja ativada. Veremos sua ativação logo abaixo.
 
@@ -73,12 +73,12 @@ Um ambiente virtual é um container de isolamento para instalação de pacotes p
 
    [Por que o Django 4 continua sendo a melhor escolha para projetos atuais](https://django.dev.br/blog/por-que-o-django-4-continua-a-ser-a-melhor-escolha-para-projetos-atuais/)
 
-8. **Acesse a pasta do projeto Django**:
+5. **Acesse a pasta do projeto Django**:
     ```bash
     cd 001-django4-basic-project
     ```
 
-9. **Execute o servidor de desenvolvimento**:
+6. **Execute o servidor de desenvolvimento**:
     ```bash
     python manage.py runserver
     ```
