@@ -18,25 +18,12 @@ Um ambiente virtual é um container de isolamento para instalação de pacotes p
 
 ### Requisitos
 
-- **Python 3.12**  
+- **Python 3.12 com PIP e venv**  
   [Baixar Python 3.12](https://www.python.org/downloads/release/python-3122/)
 
   Confira o vídeo para saber como trabalhar com múltiplas versões do Python e com venv (ambiente virtual):
  [![Watch the video](https://img.youtube.com/vi/eetDeQrv0Rs/0.jpg)](https://youtu.be/eetDeQrv0Rs)
 
-- **Virtualenv**
-
-  Para instalar o pacote `virtualenv` no Python, utilize os seguintes comandos:
-
-  - **Linux**:
-    ```bash
-    python3 -m pip install virtualenv
-    ```
-
-  - **Windows**:
-    ```bash
-    python -m pip install virtualenv
-    ```
 
 ### Passos para Executar
 
@@ -49,23 +36,23 @@ Um ambiente virtual é um container de isolamento para instalação de pacotes p
 
    **Windows**
     ```bash
-     python -m venv myvenv  # Windows
+     python -m venv myvenv 
     ```
       **Linux**
      ```bash
-     python3 -m venv myvenv  # Linux
+     python3 -m venv myvenv  
     ```
 
 4. **Ative o ambiente virtual criado**:
 
    **Windows**
     ```bash
-    myvenv\Scripts\activate  # Windows
+    myvenv\Scripts\activate  
     ```
 
      **Linux**
     ```bash
-    source myvenv/bin/activate  # Linux
+    source myvenv/bin/activate  
     ```
 
 6. **Instale o Django**:
@@ -104,7 +91,7 @@ http://127.0.0.1:8000/
 ###  Após executar o servidor, você deve ver a página inicial padrão do Django, semelhante à django_running.png acima
 
 
-### Estrutura de Diretórios do Projeto
+### Estrutura de Diretórios do Projeto = 1 arquivo (manage.py) e 1 pasta (o projeto Django) contendo 5 outros arquivos.
 
 ```
 001-django4-basic-project/
