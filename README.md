@@ -21,6 +21,8 @@ Um ambiente virtual é um container de isolamento para instalação de pacotes p
 - **Python 3.12 com PIP e venv**  
   [Baixar Python 3.12](https://www.python.org/downloads/release/python-3122/)
 
+  **o Django 5 requer Python 3.10 ou superior.**
+
   Se necessário, confira o vídeo abaixo para saber como trabalhar com múltiplas versões do Python e com venv (ambiente virtual):
  [![Watch the video](https://img.youtube.com/vi/eetDeQrv0Rs/0.jpg)](https://youtu.be/eetDeQrv0Rs)
 
@@ -63,7 +65,11 @@ Um ambiente virtual é um container de isolamento para instalação de pacotes p
     ```bash
     pip install django
     ```
-    - use, preferencialmente, a versão 5.1. Para tanto, execute o comando: pip install "django>=5.1,<=5.2"
+    - use, preferencialmente, a versão 5.1. Para tanto, execute o comando:
+
+     ```bash
+    pip install  "django>=5.1,<=5.2"
+    ```
 
     ----- **OU** -----
 
