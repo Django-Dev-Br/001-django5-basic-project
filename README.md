@@ -1,5 +1,5 @@
 
-# 001 Django 4 Basic Project
+# 001 Django 5 Basic Project
 
 ### O que é um Projeto Django?
 
@@ -31,7 +31,7 @@ Um ambiente virtual é um container de isolamento para instalação de pacotes p
 
 1. **Clone o repositório**:
     ```bash
-    git clone https://github.com/Django-Dev-Br/001-django4-basic-project.git
+    git clone https://github.com/Django-Dev-Br/001-django5-basic-project.git
     ```
 
 2. **Crie  um ambiente virtual no diretório root**:
