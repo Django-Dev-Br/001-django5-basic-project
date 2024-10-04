@@ -97,14 +97,18 @@ http://127.0.0.1:8000/
 
 ```
 001-django4-basic-project/
-├── myproject/
-│   ├── __init__.py      # Marca o diretório como um pacote Python, o que permite a importação de outros módulos
-│   ├── asgi.py          # Configurações para o servidor ASGI (usado para aplicações assíncronas)
-│   ├── settings.py      # Configurações do projeto (banco de dados, apps instalados, etc.)
-│   ├── urls.py          # Mapeamento de requisições https e redirecionamento para os templates html
-│   └── wsgi.py          # Configurações para o servidor WSGI (usado para servir a aplicação)
-└── manage.py            # CLI (Command line interface) do Django, ou seja, um script de linha de comando que recebe e executa os comandos do Django via terminal (linha de comando)
-└── requirements.txt     # arquivo de texto com uma lista de pacotes python. 
+├── db.sqlite3          # Banco de dados SQLite gerado pelo Django, que armazena dados da aplicação local
+├── django_running.png  # Captura de tela mostrando o Django em execução
+├── LICENSE             # Arquivo de licença do projeto (informações sobre direitos autorais e termos de uso)
+├── manage.py           # CLI (Command line interface) do Django - um script que recebe e executa os comandos do Django via terminal (linha de comando)
+├── myproject/          # Diretório principal do projeto Django
+│   ├── __init__.py     # Marca o diretório como um pacote Python, permitindo a importação de outros módulos
+│   ├── asgi.py         # Configurações para o servidor ASGI (usado para aplicações assíncronas)
+│   ├── settings.py     # Configurações do projeto (banco de dados, apps instalados, etc.)
+│   ├── urls.py         # Mapeamento de requisições HTTP e redirecionamento para os templates HTML
+│   └── wsgi.py         # Configurações para o servidor WSGI (usado para servir a aplicação)
+├── README.md           # Documento explicativo sobre o projeto e como configurá-lo
+└── requirements.txt    # Lista de pacotes Python necessários para o projeto
 ```
 ### OBS: Como Criar um Projeto Django
 
