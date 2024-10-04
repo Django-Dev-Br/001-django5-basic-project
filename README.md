@@ -73,8 +73,6 @@ Um ambiente virtual é um container de isolamento para instalação de pacotes p
     ```
     O arquivo requirements.txt é um arquivo de texto que contém uma lista de pacotes a ser instalado em uma venv. É uma boa prática de programação do ecossistema Python.
 
-   [Por que o Django 4 continua sendo a melhor escolha para projetos atuais](https://django.dev.br/blog/por-que-o-django-4-continua-a-ser-a-melhor-escolha-para-projetos-atuais/)
-
 5. **Acesse a pasta do projeto Django**:
     ```bash
     cd 001-django4-basic-project
