@@ -128,7 +128,7 @@ O comando acima cria os arquivos do projeto Django na pasta atual. Não cria uma
 
   Após ativar um venv e instalar pacotes neles, é possível salvar a lista dessas instalações no arquivo requirements.txt. Para isso, utilize o comando:
     
-    ```bash
+    ```python
     pip freeze > requirements.txt
     ```
     
