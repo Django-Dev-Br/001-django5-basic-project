@@ -114,6 +114,38 @@ http://127.0.0.1:8000/
 ├── README.md           # Documento explicativo sobre o projeto e como configurá-lo
 └── requirements.txt    # Lista de pacotes Python necessários para o projeto
 ```
+
+### Código deste projeto
+
+arquivo: myprojecto/urls.py
+
+```python
+from django.contrib import admin
+from django.urls import path
+from myapp import views  # Importa o módulo de views do app 'myapp'
+
+urlpatterns = [
+    path('admin/', admin.site.urls), 
+    path('', views.example_view),     # URL para a página inicial que chama a função `example_view`, a mesma que vc vê quando executa o comando runserver acima
+]
+ ```
+arquivo: myapp/views.py
+
+```python
+from django.http import HttpResponse  # Importa a classe HttpResponse, responsável por retornar respostas HTTP
+
+def example_view(request):
+    return HttpResponse("app up and running properly")  # Retorna uma mensagem indicando que o app está funcionando corretamente
+```
+
+Neste projeto, criar uma resposta simples em uma view do Django foi extremamente fácil e direto. Foi necessário modificar apenas dois arquivos:
+
+1. myproject/urls.py: Adicionamos a rota principal ('/') para direcionar à função example_view da nossa aplicação (myapp).
+2. 
+3. myapp/views.py: Criamos a função example_view que retorna uma resposta HTTP simples indicando que a aplicação está funcionando corretamente.
+
+Com apenas essas duas alterações, conseguimos configurar o Django para retornar uma mensagem no navegador ao acessar a URL principal ('/'). Isso mostra o quão ágil e eficiente é trabalhar com o Django, permitindo criar e testar respostas de forma muito prática.
+
 ### OBS: Como Criar um Projeto Django
 
 Se desejar criar seu próprio projeto Django, use o seguinte comando após criar e ativar a virtual env e instalar o django nela, conforme orientações acima:
