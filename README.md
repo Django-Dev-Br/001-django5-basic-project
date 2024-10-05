@@ -169,8 +169,6 @@ O comando acima cria os arquivos do projeto Django na pasta atual. Não cria uma
    ```bash
     pip freeze > requirements.txt
   ```
-
- 
     
   Esse comando exporta todas as dependências instaladas em um venv para o arquivo requirements.txt.
 
