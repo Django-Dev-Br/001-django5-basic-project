@@ -56,8 +56,13 @@ Um ambiente virtual é um container de isolamento para instalação de pacotes p
     ```bash
     source myvenv/bin/activate  
     ```
-
-4. **Instale o Django**:
+    
+4. **Acesse a pasta do projeto Django**:
+    ```bash
+    cd 001-django4-basic-project
+    ```
+    
+5. **Instale o Django**:
 
    Fazer a instalação após a ativação da virtual env fará com que a instalação seja feita nessa pasta ao invés do computador. Isso significa que o pacote Django não estará disponivel para todos os usuários do computador, mas apenas para o contexto no qual essa venv esteja ativada. Veremos sua ativação logo abaixo.
 
@@ -78,11 +83,6 @@ Um ambiente virtual é um container de isolamento para instalação de pacotes p
     pip install -r requirements.txt
     ```
     O arquivo requirements.txt é um arquivo de texto que contém uma lista de pacotes a ser instalado em uma venv. É uma boa prática de programação do ecossistema Python.
-
-5. **Acesse a pasta do projeto Django**:
-    ```bash
-    cd 001-django4-basic-project
-    ```
 
 6. **Execute o servidor de desenvolvimento**:
     ```bash
