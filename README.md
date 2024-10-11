@@ -58,7 +58,7 @@ Um ambiente virtual é um container de isolamento para instalação de pacotes p
     
 4. **Acesse a pasta do projeto Django**:
     ```bash
-    cd 001-django4-basic-project
+    cd 001-django5-basic-project
     ```
     
 5. **Instale o Django**:
@@ -100,7 +100,6 @@ http://127.0.0.1:8000/
 
 ```
 001-django5-basic-project/
-├── db.sqlite3          # Banco de dados SQLite gerado pelo Django, que armazena dados da aplicação local
 ├── django_running.png  # Captura de tela mostrando o Django em execução
 ├── LICENSE             # Arquivo de licença do projeto (informações sobre direitos autorais e termos de uso)
 ├── manage.py           # CLI (Command line interface) do Django - um script que recebe e executa os comandos do Django via terminal (linha de comando)
