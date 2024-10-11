@@ -18,7 +18,7 @@ Um ambiente virtual é um container de isolamento para instalação de pacotes p
 
 ### Requisitos
 
-- GIT
+- [GIT](https://git-scm.com/downloads/win)
 - **Python 3.12 com PIP e venv**
 - **o Django 5 requer Python 3.10 ou superior.**
 
