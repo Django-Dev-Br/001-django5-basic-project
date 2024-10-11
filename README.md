@@ -18,13 +18,14 @@ Um ambiente virtual é um container de isolamento para instalação de pacotes p
 
 ### Requisitos
 
+- GIT
 - **Python 3.12 com PIP e venv**
 - **o Django 5 requer Python 3.10 ou superior.**
 
 - **No [repositório 001](https://github.com/Django-Dev-Br/001-django4-basic-project) há explicações sobre PIP e venv**
 
   Se necessário, confira o vídeo abaixo para saber como trabalhar com múltiplas versões do Python e com venv (ambiente virtual):
- [![Watch the video](https://img.youtube.com/vi/eetDeQrv0Rs/0.jpg)](https://youtu.be/eetDeQrv0Rs)
+ [![Watch the video](https://img.youtube.com/vi/cxsaUE5JzDk/0.jpg)](https://youtu.be/cxsaUE5JzDk)
 
 
 ### Passos a passo para Executar em 6 etapas simples
